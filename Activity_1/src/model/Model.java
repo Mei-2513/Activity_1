@@ -18,6 +18,9 @@ public class Model {
             matriz.add(fila);
         }
     }
+    public ArrayList<ArrayList<Integer>> getMatriz() {
+        return matriz;
+    }
 
     public void setElemento(int fila, int columna, int valor) {
         matriz.get(fila).set(columna, valor);
