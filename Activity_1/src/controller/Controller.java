@@ -6,6 +6,7 @@ import java.util.Scanner;
 import model.Model;
 import view.View;
 
+
 public class Controller {
     private Model model;
     private View view;
@@ -40,4 +41,3 @@ public class Controller {
         controller.ejecutar();
     }
 }
-
