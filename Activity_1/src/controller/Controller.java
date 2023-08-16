@@ -29,10 +29,20 @@ public class Controller {
             }
         }
 
+        
+
+        System.out.println("Matriz original:");
+        view.mostrarMatriz(model.getMatriz());
 
         ArrayList<ArrayList<Integer>> matrizTranspuesta = model.obtenerMatrizTranspuesta();
+
+        System.out.println("Matriz transpuesta:");
         view.mostrarMatriz(matrizTranspuesta);
+
+
+
     }
+
 
     public static void main(String[] args) {
         Model model = new Model();
