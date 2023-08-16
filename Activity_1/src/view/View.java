@@ -11,7 +11,6 @@ public class View {
     }
 
     public void mostrarMatriz(ArrayList<ArrayList<Integer>> matriz) {
-        System.out.println("Matriz transpuesta:");
         for (ArrayList<Integer> fila : matriz) {
             for (int valor : fila) {
                 System.out.print(valor + " ");
